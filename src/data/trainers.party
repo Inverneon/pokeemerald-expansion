@@ -20,7 +20,7 @@ Optional (but still recommended) fields for trainers:
     - Music
     - Items (Some Item / Another Item / Third Item)
             (Can also be specified with ITEM_SOME_ITEM)
-    - Battle Type (Singles / Doubles, defaults to Singles)
+    - Double Battle (Yes/No, defaults to No)
     - AI (Ai Flag / Another Flag / Third Flag / ...
           see "constants/battle_ai.h" for all flags)
     - Mugshot (enable Mugshots during battle transition
@@ -699,12 +699,12 @@ Gloom
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_ROSE_2 ===
-Name: ROSE
-Class: Aroma Lady
-Pic: Aroma Lady
-Gender: Female
-Music: Female
+=== TRAINER_DONOVAN ===
+Name: DONOVAN
+Class: Scientist
+Pic: Scientist
+Gender: Male
+Music: Male
 Double Battle: No
 AI: Check Bad Move
 
@@ -4794,33 +4794,201 @@ Class: Leader
 Pic: Leader Roxanne
 Gender: Female
 Music: Female
-Items: Potion / Potion
 Double Battle: No
 AI: Basic Trainer
+Difficulty: Easy
 
 Geodude
+Ability: Sturdy
 Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
-- Rock Throw
+- Mud Slap
 - Rock Tomb
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
+Aron
+Ability: Battle Armor
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Defense Curl
-- Rock Throw
+- Metal Claw
 - Rock Tomb
 
-Nosepass @ Oran Berry
+Nosepass @ Sitrus Berry
+Ability: Sand Force
 Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Block
 - Harden
-- Tackle
+- Thunder Shock
 - Rock Tomb
+
+=== TRAINER_ROXANNE_1 ===
+Name: ROXANNE
+Class: Leader
+Pic: Leader Roxanne
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Basic Trainer
+Difficulty: Normal
+
+Larvitar @ Clear Amulet
+Ability: Sand stream
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Tomb
+- Mud Slap
+- Bite
+- Dragon Dance
+
+Anorith @ Silver Powder
+Ability: Battle Armor
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Fury Cutter
+- Rock Tomb
+- Metal Claw
+
+Aron @ Berry Juice
+Ability: Sturdy
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Iron Defense
+- Metal Claw
+- Rock Slide
+
+Bonsly @ Normal Gem
+Ability: Sturdy
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bullet Seed
+- Rock Tomb
+- Mud Slap
+- Flail
+
+Nosepass @ Sitrus Berry
+Ability: Sand Force
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sandstorm
+- Harden
+- Thunder Shock
+- Rock Tomb
+
+=== TRAINER_ROXANNE_1 ===
+Name: ROXANNE
+Class: Leader
+Pic: Leader Roxanne
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Basic Trainer
+Difficulty: Hard
+Pool Rules: Doubles 
+Party Size: 6
+
+Relicanth @ Sitrus Berry
+Ability: Rock Head
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- BubbleBeam
+- Mud Slap
+- Ancient Power
+- Substitute
+
+Lileep @ Leftovers
+Ability: Storm Drain
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Mega Drain
+- Sludge
+- Ancient Power
+- String Shot
+
+Zubat @ Covert Cloak
+Ability: Inner Focus
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- leech Life
+- Mega Drain
+- Protect
+
+Cubone @ Thick Club
+Ability: Lightning Rod
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bonemerang
+- Blizzard
+
+Staryu @ Mystic Water
+Ability: Illuminate
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- BubbleBeam
+- Psybeam
+- Icy Wind
+- Recover
+
+Aron @ Clear Amulet
+Ability: Earth Eater
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Iron Head
+- Iron Defense
+- Rock Slide
+- Aqua Ring
+
+Nosepass @ Berry Juice
+Ability: Solid Rock
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tags: Ace
+- Sandstorm
+- Harden
+- Rock Slide
+- Thunder Punch
+
+Lunatone @ Weakness Policy
+Ability: Levitate
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tags: Lead
+- Psybeam
+- Rock Slide
+- Moonlight
+- Calm Mind
+
+Sableye @ Black Glasses
+Ability: Prankster
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tags: Lead
+- Will o Wisp
+- Fake Out
+- Knock Off
+- Rock Smash
+
+Lileep @ Leftovers
+Ability: Storm Drain
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tags: Lead / Support
+- Mega Drain
+- Sludge
+- Rock Slide
+- String Shot
+
+Zubat @ Covert Cloak
+Ability: Inner Focus
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tags: Lead / Support
+- Wing Attack
+- leech Life
+- Mega Drain
+- Protect
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -4828,33 +4996,132 @@ Class: Leader
 Pic: Leader Brawly
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer
 
 Machop
 Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Revenge
+- Strength
+- Foresight
 - Bulk Up
 
 Meditite
 Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Force Palm
+- Aerial Ace
 - Reflect
 - Bulk Up
 
 Makuhita @ Sitrus Berry
 Level: 19
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- SmellingSalt
 - Vital Throw
 - Reversal
 - Bulk Up
+
+=== TRAINER_BRAWLY_1 ===
+Name: BRAWLY
+Class: Leader
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+Difficulty: Hard
+
+Machop
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Revenge
+- Strength
+- Foresight
+- Bulk Up
+
+Poliwhirl
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Ice Punch
+- Brick Break
+- BubbleBeam
+
+Meditite
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Force Palm
+- Aerial Ace
+- Reflect
+- Light Screen
+
+Makuhita @ Sitrus Berry
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- SmellingSalt
+- Vital Throw
+- Fake Out
+- Bulk Up
+
+=== TRAINER_BRAWLY_1 ===
+Name: BRAWLY
+Class: Leader
+Pic: Leader Brawly
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+Difficulty: Challenge
+
+Machop @ Sitrus Berry
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Revenge
+- Rock Slide
+- Foresight
+- Bulk Up
+
+Poliwhirl @ Wise Glasses
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hypnosis
+- Ice Beam
+- Brick Break
+- BubbleBeam
+
+Meditite @ Light Clay
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Force Palm
+- Aerial Ace
+- Reflect
+- Light Screen
+
+Heracross @ Coba Berry
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Horn Attack
+- Fury Cutter
+- Dig
+- Rock Smash
+
+Vigoroth @ Muscle Band
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Slash
+- Rock Smash
+- Focus Punch
+- Pursuit
+
+Makuhita @ Assault Vest
+Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- SmellingSalt
+- Vital Throw
+- Fake Out
+- Helping Hand
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
@@ -4862,29 +5129,28 @@ Class: Leader
 Pic: Leader Wattson
 Gender: Male
 Music: Male
-Items: Super Potion / Super Potion
 Double Battle: No
 AI: Basic Trainer
 
 Voltorb
 Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Rollout
-- Spark
+- Defense Curl 
 - Self Destruct
 - Shock Wave
 
-Electrike
+Volbeat
 Level: 20
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Shock Wave
-- Leer
-- Quick Attack
-- Howl
+- Confuse Ray
+- Giga Drain
+- Signal Beam
 
 Magneton
 Level: 22
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Supersonic
 - Shock Wave
 - Thunder Wave
@@ -4892,11 +5158,55 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 Manectric @ Sitrus Berry
 Level: 24
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Quick Attack
-- Thunder Wave
+- Bite
 - Shock Wave
 - Howl
+
+=== TRAINER_FLANNERY_1 ===
+Name: FLANNERY
+Class: Leader
+Pic: Scientist
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+
+Ninetales @ Heat Rock
+Ability: Drought
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Overheat
+- Hex
+- Solar Beam
+- Sunny Day
+
+Charmeleon
+Ability: Solar Power
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Overheat
+- Fire Punch
+- Dragon Breath
+- Iron Tail
+
+Camerupt
+Ability: Solid Rock
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Overheat
+- Magnitude
+- Rock Tomb
+- Attract
+
+Torkoal @ White Herb
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Overheat
+- Sunny Day
+- Body Slam
+- Attract
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -4904,41 +5214,108 @@ Class: Leader
 Pic: Leader Flannery
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
-Double Battle: No
+Double Battle: Yes
 AI: Basic Trainer
+Difficulty: Hard
 
-Numel
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Take Down
-- Magnitude
+Ninetales @ Heat Rock
+Ability: Drought
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heat Wave
+- Hex
+- Solar Beam
 - Sunny Day
 
-Slugma
-Level: 24
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Smog
-- Light Screen
-- Sunny Day
+Charmeleon
+Ability: Solar Power
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heat Wave
+- Fire Punch
+- Dragon Breath
+- Iron Tail
 
-Camerupt
-Level: 26
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Tackle
-- Sunny Day
+Camerupt @ Sitrus Berry
+Ability: Solid Rock
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heat Wave
+- Mud Shot
+- Rock Slide
 - Attract
 
-Torkoal @ White Herb
-Level: 29
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
+Torkoal @ Charcoal
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heat Wave
 - Sunny Day
 - Body Slam
 - Attract
+
+=== TRAINER_FLANNERY_1 ===
+Name: FLANNERY
+Class: Leader
+Pic: Leader Flannery
+Gender: Female
+Music: Female
+Double Battle: No
+AI: Basic Trainer
+Difficulty: Challenge
+
+Torkoal @ White Herb
+Ability: White Smoke
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Overheat
+- Sunny Day
+- Body Slam
+- Earthquake
+
+Charmeleon @ Charcoal
+Ability: Solar Power
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Slam
+- Solar Beam
+- Iron Tail
+
+Camerupt @ Sitrus Berry
+Ability: Solid Rock
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Earthquake
+- Rock Slide
+- Overheat
+
+Magmar @ Life Orb
+Ability: Flame Body
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Flamethrower
+- Brick Break
+- Thunder Punch
+- Sludge Bomb
+
+Entei @ Assault Vest
+Ability: Inner Focus
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Sacred Fire
+- Crunch
+- Rock Slide
+- Solar Beam
+
+Ninetales @ Heat Rock
+Ability: Drought
+Level: 30
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- FIre Blast
+- Shadow Ball
+- Solar Beam
+- Sunny Day
 
 === TRAINER_NORMAN_1 ===
 Name: NORMAN
@@ -4946,40 +5323,212 @@ Class: Leader
 Pic: Leader Norman
 Gender: Male
 Music: Male
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer
 
 Spinda
 Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Teeter Dance
 - Psybeam
 - Facade
 - Encore
 
-Vigoroth
+Zangoose @ Toxic Orb
+Ability: Toxic Boost
 Level: 27
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
 - Facade
-- Encore
+- Swords Dance
 - Feint Attack
 
-Linoone
+Wigglytuff @ Sitrus Berry
+Ability: Competitive 
 Level: 29
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bounce
 - Belly Drum
 - Facade
-- Headbutt
+- Fire Punch
 
-Slaking @ Sitrus Berry
+Slaking @ Leftovers
 Level: 31
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Feint
 - Yawn
 - Facade
+- Feint Attack
+
+=== TRAINER_NORMAN_1 ===
+Name: NORMAN
+Class: Leader
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+Difficulty: Hard
+
+Spinda @ Mental Herb
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Skill Swap
+- Psybeam
+- Helping Hand
+- Yawn
+
+Slaking @ Leftovers
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Feint
+- Yawn
+- Facade
+- Feint Attack
+
+Wigglytuff @ Sitrus Berry
+Ability: Competitive 
+Level: 29
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bounce
+- Belly Drum
+- Facade
+- Fire Punch
+
+Zangoose @ Toxic Orb
+Ability: Toxic Boost
+Level: 27
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Facade
+- Swords Dance
+- Feint Attack
+
+=== TRAINER_NORMAN_1 ===
+Name: NORMAN
+Class: Leader
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+Difficulty: Challenge
+
+Spinda @ Mental Herb
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Skill Swap
+- Psybeam
+- Helping Hand
+- Yawn
+
+Slaking @ Leftovers
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Feint
+- Yawn
+- Facade
+- Feint Attack
+
+Lickilicky @ Assault Vest
+Ability: Oblivious
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Lick
+- Body Slam
+- Brick Break
+- Shadow Ball
+
+Girafarig @ Twisted Spoon
+Ability: Competitive 
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Twin Beam
+- Thunderbolt
+- Hyper Voice
+- Crunch
+
+Wigglytuff @ Sitrus Berry
+Ability: Competitive 
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bounce
+- Belly Drum
+- Body Slam
+- Fire Punch
+
+Zangoose @ Toxic Orb
+Ability: Toxic Boost
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Facade
+- Swords Dance
+- Feint Attack
+
+=== TRAINER_NORMAN_1 ===
+Name: NORMAN
+Class: Leader
+Pic: Leader Norman
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Smart Trainer
+Difficulty: Lunatic
+Pool Rules: Doubles 
+Party Size: 6
+
+Spinda @ Mental Herb
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Tags: Lead
+- Skill Swap
+- Psybeam
+- Helping Hand
+- Yawn
+
+Slaking @ Leftovers
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Feint
+- Yawn
+- Facade
+- Feint Attack
+
+Lickilicky @ Assault Vest
+Ability: Oblivious
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Lick
+- Body Slam
+- Brick Break
+- Shadow Ball
+
+Girafarig @ Twisted Spoon
+Ability: Competitive 
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Twin Beam
+- Thunderbolt
+- Hyper Voice
+- Crunch
+
+Wigglytuff @ Sitrus Berry
+Ability: Competitive 
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bounce
+- Belly Drum
+- Body Slam
+- Fire Punch
+
+Zangoose @ Toxic Orb
+Ability: Toxic Boost
+Level: 31
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Facade
+- Swords Dance
 - Feint Attack
 
 === TRAINER_WINONA_1 ===
@@ -4988,49 +5537,402 @@ Class: Leader
 Pic: Leader Winona
 Gender: Female
 Music: Female
-Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Basic Trainer / Risky
 
-Swablu
-Level: 29
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Perish Song
-- Mirror Move
-- Safeguard
-- Aerial Ace
 
-Tropius
-Level: 29
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sunny Day
+Swellow @ Flame Orb
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
 - Aerial Ace
-- Solar Beam
-- Synthesis
-
-Pelipper
-Level: 30
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Supersonic
 - Protect
+- Endeavor
+
+Tropius @ Leftovers
+Ability: Thick Fat
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Aerial Ace
+- Leech Seed
+- Substitute
+
+Pelipper @ Mystic Water
+Ability: Keen Eye
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Icy Wind
+- Bullet Seed
 - Aerial Ace
 
-Skarmory
-Level: 31
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
+Skarmory @ Muscle Band
+Ability: Sharpness
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cut
 - Fury Attack
 - Steel Wing
 - Aerial Ace
 
-Altaria @ Oran Berry
-Level: 33
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Altaria @ Sitrus Berry
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Earthquake
 - Dragon Breath
 - Dragon Dance
 - Aerial Ace
+
+Swellow @ Flame Orb
+Level: 32
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Aerial Ace
+- Protect
+- Endeavor
+
+Skarmory @ Custap Berry
+Ability: Sturdy
+Level: 32
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spikes
+- Fury Attack
+- Steel Wing
+- Aerial Ace
+
+=== TRAINER_WINONA_1 ===
+Name: WINONA
+Class: Leader
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Basic Trainer / Risky
+Difficulty: Hard
+
+
+Skarmory @ Muscle Band
+Ability: Sharpness
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cut
+- Fury Attack
+- Steel Wing
+- Aerial Ace
+
+Gliscor @ Toxic Orb
+Ability: Poison Heal
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Earthquake
+- Rock Slide
+- Aerial Ace
+
+Swellow @ Flame Orb
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Air Cutter
+- Protect
+- Endeavor
+
+Tropius @ Leftovers
+Ability: Thick Fat
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Aerial Ace
+- Leech Seed
+- Protect
+
+Pelipper @ Mystic Water
+Ability: Keen Eye
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Icy Wind
+- Bullet Seed
+- Air Cutter
+
+Altaria @ Sitrus Berry
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Dragon Breath
+- Dragon Dance
+- Air Cutter
+
+
+=== TRAINER_WINONA_1 ===
+Name: WINONA
+Class: Leader
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Basic Trainer / Risky
+Difficulty: Challenge
+
+
+Skarmory @ Muscle Band
+Ability: Sharpness
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cut
+- Fury Attack
+- Steel Wing
+- Aerial Ace
+
+Gliscor @ Toxic Orb
+Ability: Poison Heal
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Earthquake
+- Rock Slide
+- Aerial Ace
+
+Flygon @ Life Orb
+Ability: Sheer Force
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Fire Blast
+- Dragon Claw
+- Aerial Ace
+
+Swellow @ Flame Orb
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Air Cutter
+- Protect
+- Endeavor
+
+Tropius @ Leftovers
+Ability: Thick Fat
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Aerial Ace
+- Leech Seed
+- Protect
+
+Toucannon @ Sitrus Berry
+Ability: Skill Link
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Blast
+- Fury Attack
+- Beak Blast
+- Heat Wave
+
+Pelipper @ Mystic Water
+Ability: Keen Eye
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Icy Wind
+- Bullet Seed
+- Air Cutter
+
+Articuno @ Never Melt Ice
+Ability: Pressure
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Blizzard
+- Ice Beam
+- Freeze Dry
+- Water Pulse
+
+
+
+Altaria @ Sitrus Berry
+Level: 36
+Tags: Ace
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Dragon Breath
+- Dragon Dance
+- Air Cutter
+
+Skarmory @ Focus Sash
+Ability: Sharpness
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Spikes
+- Fury Attack
+- Steel Wing
+- Air Cutter
+
+Flygon @ Life Orb
+Ability: Sheer Force
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Aerial Ace
+
+Articuno @ Never Melt Ice
+Ability: Pressure
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Blizzard
+- Ice Beam
+- Freeze Dry
+- Air Cutter
+
+Toucannon @ Sitrus Berry
+Ability: Skill Link
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Blast
+- Fury Attack
+- Beak Blast
+- Heat Wave
+
+=== TRAINER_WINONA_1 ===
+Name: WINONA
+Class: Leader
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Basic Trainer / Risky
+Difficulty: Lunatic 
+
+
+Skarmory @ Muscle Band
+Ability: Sharpness
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cut
+- Fury Attack
+- Steel Wing
+- Aerial Ace
+
+Gliscor @ Toxic Orb
+Ability: Poison Heal
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Earthquake
+- Rock Slide
+- Aerial Ace
+
+Flygon @ Life Orb
+Ability: Sheer Force
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Fire Blast
+- Dragon Claw
+- Aerial Ace
+
+Swellow @ Flame Orb
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Air Cutter
+- Protect
+- Endeavor
+
+Tropius @ Leftovers
+Ability: Thick Fat
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Aerial Ace
+- Leech Seed
+- Protect
+
+Toucannon @ Sitrus Berry
+Ability: Skill Link
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Rock Blast
+- Fury Attack
+- Beak Blast
+- Heat Wave
+
+Pelipper @ Mystic Water
+Ability: Keen Eye
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Icy Wind
+- Bullet Seed
+- Air Cutter
+
+Articuno @ Never Melt Ice
+Ability: Pressure
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Blizzard
+- Ice Beam
+- Freeze Dry
+- Water Pulse
+
+Altaria @ Sitrus Berry
+Level: 36
+Tags: Ace
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Dragon Breath
+- Dragon Dance
+- Air Cutter
+
+Moltres @ White Herb
+Ability: Pressure
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Heat Wave
+- Air Cutter
+- Ancient Power
+- Overheat
+
+Flygon @ Life Orb
+Ability: Sheer Force
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Rock Slide
+- Dragon Claw
+- Aerial Ace
+
+Articuno @ Never Melt Ice
+Ability: Pressure
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Blizzard
+- Ice Beam
+- Freeze Dry
+- Air Cutter
+
+Zapdos 
+Ability: Skill Link
+Level: 36
+Tags: Lead
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Reflect
+- Light Screen
+- Thunderbolt
+- Drill Peck
+
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -5169,24 +6071,47 @@ IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Wingull
 Level: 15
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_JERRY_2 ===
-Name: JERRY
-Class: School Kid
-Pic: School Kid M
+=== TRAINER_MAITO ===
+Name: MAITO
+Class: Leader
+Pic: Scientist
 Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Ralts
-Level: 26
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Koffing  
+Ability: Levitate  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Poison Gas  
+- Smog  
+- Ember  
+- Sludge  
 
-Meditite
-Level: 26
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Grimer-Alola  
+Ability: Poison Touch  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite  
+- Sludge  
+- Acid Armor  
+- Mud Slap
+
+Tentacool  
+Ability: Clear Body  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bubble  
+- Venoshock  
+- Absorb
+- Confuse Ray
+
+Croagunk @ Poison Barb  
+Ability: Poison Point  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Venoshock  
+- Arm Thrust  
+- Poison Gas  
 
 === TRAINER_JERRY_3 ===
 Name: JERRY
@@ -5952,6 +6877,102 @@ AI: Check Bad Move
 Poochyena
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CALVIN_1 ===
+Name: CALVIN
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move
+Difficulty: Hard
+
+Poochyena
+Ability: Intimidate
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Ability: Guts
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CALVIN_1 ===
+Name: CALVIN
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: No
+AI: Check Bad Move
+Difficulty: Challenge
+
+Poochyena
+Ability: Intimidate
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Howl
+- Mud Slap
+
+Taillow
+Ability: Guts
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Tackle
+
+Zigzagoon
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pin Missile 
+- Tackle
+- Dig
+
+=== TRAINER_CALVIN_1 ===
+Name: CALVIN
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move
+Difficulty: Lunatic
+
+Poochyena
+Ability: Intimidate
+Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite
+- Howl
+- Mud Slap
+
+Taillow
+Ability: Guts
+Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Wing Attack
+- Tackle
+
+Zigzagoon
+Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Pin Missile 
+- Tackle
+- Dig
+
+Mareep @ Oran Berry
+Ability: Fur Coat
+Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Shock Wave 
+- Tackle
+- Tail Glow 
 
 === TRAINER_BILLY ===
 Name: BILLY
@@ -11053,13 +12074,130 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Zigzagoon
-Level: 4
+Ralts
+Shiny: Yes
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Shroomish
-Level: 4
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Stun Spore 
+- Tackle
+- Absorb
+
+=== TRAINER_TIANA ===
+Name: TIANA
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Check Bad Move
+Difficulty: Hard
+
+Ralts
+Shiny: Yes
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Shock Wave
+
+Shroomish
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Seed
+- Tackle
+- Absorb
+- Stun Spore
+
+=== TRAINER_TIANA ===
+Name: TIANA
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Check Bad Move
+Difficulty: Challenge
+
+Ralts
+Shiny: Yes
+Ability: Trace
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Shock Wave
+
+Smeargle
+Ability: Technician 
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Helping Hand
+- Fake Out
+- Hyper Voice
+- Spore
+
+
+Shroomish
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Seed
+- Tackle
+- Absorb
+- Stun Spore
+
+Psyduck
+Shiny: Yes
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Water Gun
+- Disable
+
+=== TRAINER_TIANA ===
+Name: TIANA
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Check Bad Move
+Difficulty: Lunatic
+
+Ralts
+Shiny: Yes
+Ability: Trace
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Psybeam
+- Shock Wave
+
+Smeargle
+Ability: Technician 
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Helping Hand
+- Fake Out
+- Hyper Voice
+- Spore
+
+
+Beautifly
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Gust
+- Tackle
+- Stun Spore
+- Absorb
+
+Psyduck
+Shiny: Yes
+Level: 10
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- BubbleBeam
+- Icy Wind
 
 === TRAINER_HALEY_1 ===
 Name: HALEY
