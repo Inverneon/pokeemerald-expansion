@@ -699,23 +699,6 @@ Gloom
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_DONOVAN ===
-Name: DONOVAN
-Class: Scientist
-Pic: Scientist
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Shroomish
-Level: 26
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Roselia
-Level: 26
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
 === TRAINER_ROSE_3 ===
 Name: ROSE
 Class: Aroma Lady
@@ -4998,6 +4981,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Smart Trainer
+Difficulty: Easy
 
 Machop
 Level: 16
@@ -5031,7 +5015,7 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Smart Trainer
-Difficulty: Hard
+Difficulty: Normal
 
 Machop
 Level: 16
@@ -5073,7 +5057,7 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Smart Trainer
-Difficulty: Challenge
+Difficulty: Hard
 
 Machop @ Sitrus Berry
 Level: 19
@@ -5131,6 +5115,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Basic Trainer
+Difficulty: Easy
 
 Voltorb
 Level: 20
@@ -5167,11 +5152,12 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
 Class: Leader
-Pic: Scientist
+Pic: Leader Flannery
 Gender: Female
 Music: Female
 Double Battle: No
 AI: Basic Trainer
+Difficulty: Easy
 
 Ninetales @ Heat Rock
 Ability: Drought
@@ -5216,7 +5202,7 @@ Gender: Female
 Music: Female
 Double Battle: Yes
 AI: Basic Trainer
-Difficulty: Hard
+Difficulty: Normal
 
 Ninetales @ Heat Rock
 Ability: Drought
@@ -5261,7 +5247,7 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Basic Trainer
-Difficulty: Challenge
+Difficulty: Hard
 
 Torkoal @ White Herb
 Ability: White Smoke
@@ -5325,6 +5311,7 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Basic Trainer
+Difficulty: Easy
 
 Spinda
 Level: 27
@@ -5368,7 +5355,7 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Smart Trainer
-Difficulty: Hard
+Difficulty: Normal
 
 Spinda @ Mental Herb
 Level: 29
@@ -5412,69 +5399,7 @@ Gender: Male
 Music: Male
 Double Battle: Yes
 AI: Smart Trainer
-Difficulty: Challenge
-
-Spinda @ Mental Herb
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Skill Swap
-- Psybeam
-- Helping Hand
-- Yawn
-
-Slaking @ Leftovers
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Feint
-- Yawn
-- Facade
-- Feint Attack
-
-Lickilicky @ Assault Vest
-Ability: Oblivious
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Lick
-- Body Slam
-- Brick Break
-- Shadow Ball
-
-Girafarig @ Twisted Spoon
-Ability: Competitive 
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Twin Beam
-- Thunderbolt
-- Hyper Voice
-- Crunch
-
-Wigglytuff @ Sitrus Berry
-Ability: Competitive 
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bounce
-- Belly Drum
-- Body Slam
-- Fire Punch
-
-Zangoose @ Toxic Orb
-Ability: Toxic Boost
-Level: 31
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Giga Drain
-- Facade
-- Swords Dance
-- Feint Attack
-
-=== TRAINER_NORMAN_1 ===
-Name: NORMAN
-Class: Leader
-Pic: Leader Norman
-Gender: Male
-Music: Male
-Double Battle: Yes
-AI: Smart Trainer
-Difficulty: Lunatic
+Difficulty: Hard
 Pool Rules: Doubles 
 Party Size: 6
 
@@ -5538,8 +5463,72 @@ Pic: Leader Winona
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Basic Trainer / Risky
+AI: Smart Trainer
+Difficulty: Easy
 
+Skarmory @ Muscle Band
+Ability: Sharpness
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Cut
+- Fury Attack
+- Steel Wing
+- Aerial Ace
+
+Gliscor @ Toxic Orb
+Ability: Poison Heal
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Protect
+- Earthquake
+- Rock Slide
+- Aerial Ace
+
+Swellow @ Flame Orb
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Facade
+- Air Cutter
+- Protect
+- Endeavor
+
+Tropius @ Leftovers
+Ability: Thick Fat
+Level: 32
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Giga Drain
+- Aerial Ace
+- Leech Seed
+- Protect
+
+Pelipper @ Mystic Water
+Ability: Keen Eye
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Hydro Pump
+- Icy Wind
+- Bullet Seed
+- Air Cutter
+
+Altaria @ Sitrus Berry
+Level: 36
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Earthquake
+- Dragon Breath
+- Dragon Dance
+- Air Cutter
+
+=== TRAINER_WINONA_1 ===
+Name: WINONA
+Class: Leader
+Pic: Leader Winona
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Smart Trainer
+Difficulty: Normal
+Pool Rules: Doubles 
+Party Size: 6
 
 Swellow @ Flame Orb
 Level: 34
@@ -5610,207 +5599,10 @@ Pic: Leader Winona
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Basic Trainer / Risky
+AI: Smart Trainer
 Difficulty: Hard
-
-
-Skarmory @ Muscle Band
-Ability: Sharpness
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Cut
-- Fury Attack
-- Steel Wing
-- Aerial Ace
-
-Gliscor @ Toxic Orb
-Ability: Poison Heal
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Protect
-- Earthquake
-- Rock Slide
-- Aerial Ace
-
-Swellow @ Flame Orb
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Facade
-- Air Cutter
-- Protect
-- Endeavor
-
-Tropius @ Leftovers
-Ability: Thick Fat
-Level: 32
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Giga Drain
-- Aerial Ace
-- Leech Seed
-- Protect
-
-Pelipper @ Mystic Water
-Ability: Keen Eye
-Level: 34
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hydro Pump
-- Icy Wind
-- Bullet Seed
-- Air Cutter
-
-Altaria @ Sitrus Berry
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Earthquake
-- Dragon Breath
-- Dragon Dance
-- Air Cutter
-
-
-=== TRAINER_WINONA_1 ===
-Name: WINONA
-Class: Leader
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Double Battle: Yes
-AI: Basic Trainer / Risky
-Difficulty: Challenge
-
-
-Skarmory @ Muscle Band
-Ability: Sharpness
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Cut
-- Fury Attack
-- Steel Wing
-- Aerial Ace
-
-Gliscor @ Toxic Orb
-Ability: Poison Heal
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Protect
-- Earthquake
-- Rock Slide
-- Aerial Ace
-
-Flygon @ Life Orb
-Ability: Sheer Force
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Earthquake
-- Fire Blast
-- Dragon Claw
-- Aerial Ace
-
-Swellow @ Flame Orb
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Facade
-- Air Cutter
-- Protect
-- Endeavor
-
-Tropius @ Leftovers
-Ability: Thick Fat
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Giga Drain
-- Aerial Ace
-- Leech Seed
-- Protect
-
-Toucannon @ Sitrus Berry
-Ability: Skill Link
-Level: 36
-Tags: Lead
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rock Blast
-- Fury Attack
-- Beak Blast
-- Heat Wave
-
-Pelipper @ Mystic Water
-Ability: Keen Eye
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hydro Pump
-- Icy Wind
-- Bullet Seed
-- Air Cutter
-
-Articuno @ Never Melt Ice
-Ability: Pressure
-Level: 36
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Blizzard
-- Ice Beam
-- Freeze Dry
-- Water Pulse
-
-
-
-Altaria @ Sitrus Berry
-Level: 36
-Tags: Ace
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Earthquake
-- Dragon Breath
-- Dragon Dance
-- Air Cutter
-
-Skarmory @ Focus Sash
-Ability: Sharpness
-Level: 36
-Tags: Lead
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Spikes
-- Fury Attack
-- Steel Wing
-- Air Cutter
-
-Flygon @ Life Orb
-Ability: Sheer Force
-Level: 36
-Tags: Lead
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Earthquake
-- Rock Slide
-- Dragon Claw
-- Aerial Ace
-
-Articuno @ Never Melt Ice
-Ability: Pressure
-Level: 36
-Tags: Lead
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Blizzard
-- Ice Beam
-- Freeze Dry
-- Air Cutter
-
-Toucannon @ Sitrus Berry
-Ability: Skill Link
-Level: 36
-Tags: Lead
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Rock Blast
-- Fury Attack
-- Beak Blast
-- Heat Wave
-
-=== TRAINER_WINONA_1 ===
-Name: WINONA
-Class: Leader
-Pic: Leader Winona
-Gender: Female
-Music: Female
-Double Battle: Yes
-AI: Basic Trainer / Risky
-Difficulty: Lunatic 
-
+Pool Rules: Doubles 
+Party Size: 6
 
 Skarmory @ Muscle Band
 Ability: Sharpness
@@ -5923,7 +5715,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Freeze Dry
 - Air Cutter
 
-Zapdos 
+Zapdos @ Magnet
 Ability: Skill Link
 Level: 36
 Tags: Lead
@@ -5932,7 +5724,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Light Screen
 - Thunderbolt
 - Drill Peck
-
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -6073,10 +5864,10 @@ Wingull
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-=== TRAINER_MAITO ===
-Name: MAITO
-Class: Leader
-Pic: Scientist
+=== TRAINER_JERRY_3 ===
+Name: JERRY
+Class: School Kid
+Pic: School Kid M
 Gender: Male
 Music: Male
 Double Battle: No
@@ -6112,23 +5903,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Venoshock  
 - Arm Thrust  
 - Poison Gas  
-
-=== TRAINER_JERRY_3 ===
-Name: JERRY
-Class: School Kid
-Pic: School Kid M
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-
-Kirlia
-Level: 29
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Meditite
-Level: 29
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
 === TRAINER_JERRY_4 ===
 Name: JERRY
@@ -6873,12 +6647,33 @@ Gender: Male
 Music: Male
 Double Battle: No
 AI: Check Bad Move
+Difficulty: Easy
 
 Poochyena
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Taillow
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CALVIN_1 ===
+Name: CALVIN
+Class: Youngster
+Pic: Youngster
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move
+Difficulty: Normal
+
+Poochyena
+Ability: Intimidate
+Level: 5
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Taillow
+Ability: Guts
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6894,26 +6689,6 @@ Difficulty: Hard
 
 Poochyena
 Ability: Intimidate
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-Taillow
-Ability: Guts
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_CALVIN_1 ===
-Name: CALVIN
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: No
-AI: Check Bad Move
-Difficulty: Challenge
-
-Poochyena
-Ability: Intimidate
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite
@@ -6929,38 +6704,6 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Zigzagoon
 Level: 7
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Pin Missile 
-- Tackle
-- Dig
-
-=== TRAINER_CALVIN_1 ===
-Name: CALVIN
-Class: Youngster
-Pic: Youngster
-Gender: Male
-Music: Male
-Double Battle: Yes
-AI: Check Bad Move
-Difficulty: Lunatic
-
-Poochyena
-Ability: Intimidate
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Howl
-- Mud Slap
-
-Taillow
-Ability: Guts
-Level: 9
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Wing Attack
-- Tackle
-
-Zigzagoon
-Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Pin Missile 
 - Tackle
@@ -12073,6 +11816,8 @@ Gender: Female
 Music: Female
 Double Battle: No
 AI: Check Bad Move
+Difficulty: Easy
+
 
 Ralts
 Shiny: Yes
@@ -12094,76 +11839,32 @@ Gender: Female
 Music: Female
 Double Battle: Yes
 AI: Check Bad Move
+Difficulty: Normal
+
+Ralts
+Shiny: Yes
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Confusion
+- Shock Wave
+
+Shroomish
+Level: 8
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Leech Seed
+- Tackle
+- Absorb
+- Stun Spore
+
+=== TRAINER_TIANA ===
+Name: TIANA
+Class: Lass
+Pic: Lass
+Gender: Female
+Music: Female
+Double Battle: Yes
+AI: Check Bad Move
 Difficulty: Hard
-
-Ralts
-Shiny: Yes
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Confusion
-- Shock Wave
-
-Shroomish
-Level: 8
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Leech Seed
-- Tackle
-- Absorb
-- Stun Spore
-
-=== TRAINER_TIANA ===
-Name: TIANA
-Class: Lass
-Pic: Lass
-Gender: Female
-Music: Female
-Double Battle: Yes
-AI: Check Bad Move
-Difficulty: Challenge
-
-Ralts
-Shiny: Yes
-Ability: Trace
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psybeam
-- Shock Wave
-
-Smeargle
-Ability: Technician 
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Helping Hand
-- Fake Out
-- Hyper Voice
-- Spore
-
-
-Shroomish
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Leech Seed
-- Tackle
-- Absorb
-- Stun Spore
-
-Psyduck
-Shiny: Yes
-Level: 10
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Confusion
-- Water Gun
-- Disable
-
-=== TRAINER_TIANA ===
-Name: TIANA
-Class: Lass
-Pic: Lass
-Gender: Female
-Music: Female
-Double Battle: Yes
-AI: Check Bad Move
-Difficulty: Lunatic
 
 Ralts
 Shiny: Yes
