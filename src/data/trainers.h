@@ -14478,7 +14478,7 @@ F_TRAINER_FEMALE |
 #line 5886
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 5885
-            .ability = ABILITY_POISON_TOUCH,
+            .ability = ABILITY_ABILITY_NEUROTIC_SHOCK,
 #line 5887
             .lvl = 100,
             .nature = NATURE_HARDY,
@@ -44199,6 +44199,108 @@ F_TRAINER_FEMALE |
             .lvl = 5,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            },
+        },
+    },
+#line 17716
+    [DIFFICULTY_NORMAL][TRAINER_MAITO] =
+    {
+#line 17717
+        .trainerName = _("MAITO"),
+#line 17718
+        .trainerClass = TRAINER_CLASS_LEADER,
+#line 17719
+        .trainerPic = TRAINER_PIC_COLLECTOR,
+        .encounterMusic_gender =
+#line 17721
+            TRAINER_ENCOUNTER_MUSIC_MALE,
+#line 17722
+        .battleType = TRAINER_BATTLE_TYPE_DOUBLES,
+#line 17723
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
+        .partySize = 4,
+        .party = (const struct TrainerMon[])
+        {
+            {
+#line 17725
+            .species = SPECIES_KOFFING,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 17727
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 17726
+            .ability = ABILITY_LEVITATE,
+#line 17728
+            .lvl = 100,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 17728
+                MOVE_POISON_GAS,
+                MOVE_SMOG,
+                MOVE_EMBER,
+                MOVE_SLUDGE,
+            },
+            },
+            {
+#line 17733
+            .species = SPECIES_GRIMER_ALOLA,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 17735
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 17734
+            .ability = ABILITY_POISON_TOUCH,
+#line 17736
+            .lvl = 100,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 17736
+                MOVE_BITE,
+                MOVE_SLUDGE,
+                MOVE_ACID_ARMOR,
+                MOVE_MUD_SLAP,
+            },
+            },
+            {
+#line 17741
+            .species = SPECIES_TENTACOOL,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 17743
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 17742
+            .ability = ABILITY_CLEAR_BODY,
+#line 17744
+            .lvl = 100,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 17744
+                MOVE_BUBBLE,
+                MOVE_VENOSHOCK,
+                MOVE_ABSORB,
+                MOVE_CONFUSE_RAY,
+            },
+            },
+            {
+#line 17749
+            .species = SPECIES_CROAGUNK,
+            .gender = TRAINER_MON_RANDOM_GENDER,
+#line 17749
+            .heldItem = ITEM_POISON_BARB,
+#line 17751
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 17750
+            .ability = ABILITY_POISON_POINT,
+#line 17752
+            .lvl = 100,
+            .nature = NATURE_HARDY,
+            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+            .moves = {
+#line 17752
+                MOVE_VENOSHOCK,
+                MOVE_ARM_THRUST,
+                MOVE_POISON_GAS,
+            },
             },
         },
     },
