@@ -5049,7 +5049,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "Fires a lump of ink to\n"
             "damage and cut accuracy."),
         .effect = EFFECT_HIT,
-        .power = 65,
+        .power = 135,
         .type = TYPE_WATER,
         .accuracy = 85,
         .pp = 10,
@@ -5103,11 +5103,11 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .description = COMPOUND_STRING(
             "Powerful and sure to cause\n"
             "paralysis, but inaccurate."),
-        .effect = EFFECT_HIT,
-        .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 120 : 100,
+        .effect = EFFECT_MULTI_HIT,
+        .power = B_UPDATED_MOVE_DATA >= GEN_4 ? 25 : 100,
         .type = TYPE_ELECTRIC,
-        .accuracy = 50,
-        .pp = 5,
+        .accuracy = 100,
+        .pp = 15,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .category = DAMAGE_CATEGORY_SPECIAL,
