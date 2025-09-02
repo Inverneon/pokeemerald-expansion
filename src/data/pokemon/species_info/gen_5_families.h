@@ -9105,10 +9105,10 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 #if P_FAMILY_KLINK
     [SPECIES_KLINK] =
     {
-        .baseHP        = 40,
-        .baseAttack    = 55,
+        .baseHP        = 50,
+        .baseAttack    = 75,
         .baseDefense   = 70,
-        .baseSpeed     = 30,
+        .baseSpeed     = 60,
         .baseSpAttack  = 45,
         .baseSpDefense = 60,
         .types = MON_TYPES(TYPE_STEEL),
@@ -9120,7 +9120,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_PLUS, ABILITY_MINUS, ABILITY_CLEAR_BODY },
+        .abilities = { ABILITY_STRONG_JAW, ABILITY_CLEAR_BODY, ABILITY_NONE },
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = TRUE,
         .speciesName = _("Klink"),
@@ -9171,15 +9171,15 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sKlinkLevelUpLearnset,
         .teachableLearnset = sKlinkTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 38, SPECIES_KLANG}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 30, SPECIES_KLANG}),
     },
 
     [SPECIES_KLANG] =
     {
         .baseHP        = 60,
-        .baseAttack    = 80,
+        .baseAttack    = 100,
         .baseDefense   = 95,
-        .baseSpeed     = 50,
+        .baseSpeed     = 75,
         .baseSpAttack  = 70,
         .baseSpDefense = 85,
         .types = MON_TYPES(TYPE_STEEL),
@@ -9191,7 +9191,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_PLUS, ABILITY_MINUS, ABILITY_CLEAR_BODY },
+        .abilities = { AABILITY_STRONG_JAW, ABILITY_CLEAR_BODY, ABILITY_NONE },
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = TRUE,
         .speciesName = _("Klang"),
@@ -9242,13 +9242,13 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         )
         .levelUpLearnset = sKlangLevelUpLearnset,
         .teachableLearnset = sKlangTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 49, SPECIES_KLINKLANG}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_KLINKLANG}),
     },
 
     [SPECIES_KLINKLANG] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 100,
+        .baseHP        = 75,
+        .baseAttack    = 110,
         .baseDefense   = 115,
         .baseSpeed     = 90,
         .baseSpAttack  = 70,
@@ -9262,7 +9262,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MINERAL),
-        .abilities = { ABILITY_PLUS, ABILITY_MINUS, ABILITY_CLEAR_BODY },
+        .abilities = { ABILITY_STRONG_JAW, ABILITY_CLEAR_BODY, ABILITY_NONE },
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = TRUE,
         .speciesName = _("Klinklang"),
@@ -9322,7 +9322,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .baseHP        = 35,
         .baseAttack    = 55,
         .baseDefense   = 40,
-        .baseSpeed     = 60,
+        .baseSpeed     = 150,
         .baseSpAttack  = 45,
         .baseSpDefense = 40,
         .types = MON_TYPES(TYPE_ELECTRIC),
@@ -9334,7 +9334,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
-        .abilities = { ABILITY_LEVITATE, ABILITY_NONE, ABILITY_NONE },
+        .abilities = { ABILITY_LEVITATE, ABILITY_GALVANIZE, ABILITY_NONE },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Tynamo"),
         .cryId = CRY_TYNAMO,
@@ -9397,15 +9397,15 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .tmIlliterate = TRUE,
         .levelUpLearnset = sTynamoLevelUpLearnset,
         .teachableLearnset = sTynamoTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 39, SPECIES_EELEKTRIK}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 20, SPECIES_EELEKTRIK}),
     },
 
     [SPECIES_EELEKTRIK] =
     {
-        .baseHP        = 65,
+        .baseHP        = 95,
         .baseAttack    = 85,
         .baseDefense   = 70,
-        .baseSpeed     = 40,
+        .baseSpeed     = 60,
         .baseSpAttack  = 75,
         .baseSpDefense = 70,
         .types = MON_TYPES(TYPE_ELECTRIC),
@@ -9417,7 +9417,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
-        .abilities = { ABILITY_LEVITATE, ABILITY_NONE, ABILITY_NONE },
+        .abilities = { ABILITY_LEVITATE, ABILITY_STATIC, ABILITY_NONE },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Eelektrik"),
         .cryId = CRY_EELEKTRIK,
@@ -9473,10 +9473,10 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
 
     [SPECIES_EELEKTROSS] =
     {
-        .baseHP        = 85,
+        .baseHP        = 115,
         .baseAttack    = 115,
         .baseDefense   = 80,
-        .baseSpeed     = 50,
+        .baseSpeed     = 70,
         .baseSpAttack  = 105,
         .baseSpDefense = 80,
         .types = MON_TYPES(TYPE_ELECTRIC),
@@ -9488,7 +9488,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS),
-        .abilities = { ABILITY_LEVITATE, ABILITY_NONE, ABILITY_NONE },
+        .abilities = { ABILITY_LEVITATE, ABILITY_STATIC, ABILITY_NONE },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Eelektross"),
         .cryId = CRY_EELEKTROSS,

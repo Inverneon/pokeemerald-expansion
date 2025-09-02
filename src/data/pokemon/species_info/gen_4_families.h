@@ -4970,10 +4970,10 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
 #if P_FAMILY_CROAGUNK
     [SPECIES_CROAGUNK] =
     {
-        .baseHP        = 48,
-        .baseAttack    = 61,
-        .baseDefense   = 40,
-        .baseSpeed     = 50,
+        .baseHP        = 58,
+        .baseAttack    = 81,
+        .baseDefense   = 50,
+        .baseSpeed     = 90,
         .baseSpAttack  = 61,
         .baseSpDefense = 40,
         .types = MON_TYPES(TYPE_POISON, TYPE_FIGHTING),
@@ -5049,16 +5049,16 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .levelUpLearnset = sCroagunkLevelUpLearnset,
         .teachableLearnset = sCroagunkTeachableLearnset,
         .eggMoveLearnset = sCroagunkEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 37, SPECIES_TOXICROAK}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 33, SPECIES_TOXICROAK}),
     },
 
     [SPECIES_TOXICROAK] =
     {
         .baseHP        = 83,
-        .baseAttack    = 106,
-        .baseDefense   = 65,
-        .baseSpeed     = 85,
-        .baseSpAttack  = 86,
+        .baseAttack    = 117,
+        .baseDefense   = 75,
+        .baseSpeed     = 116,
+        .baseSpAttack  = 96,
         .baseSpDefense = 65,
         .types = MON_TYPES(TYPE_POISON, TYPE_FIGHTING),
         .catchRate = 75,
@@ -5070,7 +5070,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
-        .abilities = { ABILITY_ANTICIPATION, ABILITY_DRY_SKIN, ABILITY_POISON_TOUCH },
+        .abilities = { ABILITY_POISON_TOUCH, ABILITY_DRY_SKIN, ABILITY_NONE },
         .bodyColor = BODY_COLOR_BLUE,
         .speciesName = _("Toxicroak"),
         .cryId = CRY_TOXICROAK,

@@ -5882,7 +5882,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Sludge  
 
 Grimer-Alola  
-Ability: Poison Touch  
+Ability: Neurotic Shock  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bite  
 - Sludge  
@@ -17725,7 +17725,7 @@ AI: Check Bad Move
 Koffing  
 Ability: Levitate  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Poison Gas  
+- Toxic Spikes  
 - Smog  
 - Ember  
 - Sludge  
@@ -17739,7 +17739,7 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Mud Slap
 
 Tentacool  
-Ability: Clear Body  
+Ability: Static  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Bubble  
 - Venoshock  
@@ -17747,8 +17747,58 @@ IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Confuse Ray
 
 Croagunk @ Poison Barb  
-Ability: Poison Point  
+Ability: Poison Touch  
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Venoshock  
 - Arm Thrust  
 - Poison Gas  
+
+=== TRAINER_MAITO ===
+Name: MAITO
+Class: Leader
+Pic: Collector
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move
+Difficulty: Hard
+
+Koffing  
+Ability: Levitate 
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic Spikes  
+- Smog  
+- Ember  
+- Sludge 
+
+Beedrill  
+Ability: Merciless  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Toxic Spikes  
+- Twineedle  
+- Peck  
+- Sludge  
+
+Grimer-Alola  
+Ability: Poison Touch  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Bite  
+- Moonlight  
+- Acid Armor  
+- Mud Slap
+
+Tentacool  
+Ability: Static  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- BubbleBeam 
+- Venoshock  
+- Absorb
+- Confuse Ray
+
+Croagunk @ Poison Barb  
+Ability: Merciless  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Venoshock  
+- Arm Thrust  
+- Toxic Spikes
+- Pursuit
