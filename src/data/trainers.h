@@ -14478,7 +14478,7 @@ F_TRAINER_FEMALE |
 #line 5886
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 5885
-            .ability = ABILITY_NEUROTIC_SHOCK,
+            .ability = ABILITY_POISON_TOUCH,
 #line 5887
             .lvl = 100,
             .nature = NATURE_HARDY,
@@ -44210,7 +44210,7 @@ F_TRAINER_FEMALE |
 #line 17718
         .trainerClass = TRAINER_CLASS_LEADER,
 #line 17719
-        .trainerPic = TRAINER_PIC_COLLECTOR,
+        .trainerPic = TRAINER_PIC_MAITO,
         .encounterMusic_gender =
 #line 17721
             TRAINER_ENCOUNTER_MUSIC_MALE,
